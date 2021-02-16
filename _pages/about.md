@@ -16,6 +16,8 @@ I'm currently preparing a special issue entitled *Misreported data modeling* for
 
 Keywords: Mathematical modeling; misreported data; longitudinal data; under-registered data; over-reported data. 
 
+LaTeX template for preparing manuscripts for this special issue can be downloaded [here](files/mdpi_template.zip).
+
 Contact
 ------
 You can reach me [here](mailto:dmorina@ub.edu)
