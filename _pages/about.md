@@ -12,6 +12,11 @@ David Moriña is visiting professor at the Department of Econometrics, Statistic
 
 Current projects
 ------
+Data science against gender-based violence (DaSciVio, Funded by Fundació La Caixa, Social Research 2022)
+
+Insurance data analytics: methods and implications for usage-based products (IDA4UB, Funded by the Spanish Ministry of Science)
+
+Seguros de salud tras la epidemia: Medir la transformación (Funded by Fundación Mapfre)
 
 Contact
 ------
