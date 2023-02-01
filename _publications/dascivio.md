@@ -21,6 +21,8 @@ number of complaints, it is suspected that they represent only a small portion o
 as for very different reasons, the victims often decide not to report the assaults they suffer.
 
 ![fig1](/images/fig1.png)
+*Figure 1. Reported monthly cases of gender-based violence in each area of the North Metropolitan
+Region in Catalonia (Spain).*
 
 Acknowledgements
 ================
