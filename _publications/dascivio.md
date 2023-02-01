@@ -1,3 +1,4 @@
+<base target="_blank">
 ---
 title: "Data science against gender-based violence"
 permalink: /publications/
@@ -235,7 +236,7 @@ Methodology
 
 Results
 ------
-The main preliminary results of the project can be consulted <a href="www.google.cat" target="_blank">here</a>.
+The main preliminary results of the project can be consulted [here](https://www.google.cat).
 
 Acknowledgements
 ------
