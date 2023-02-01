@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 Introduction
-================
+------
 Gender-based violence is the violence suffered by women for the sole reason of being so and is the
 most serious manifestation of patriarchal culture, taking women's lives or impeding the full
 development of their rights, equal opportunities, and freedoms. In Spain, in the period 2010-2021, 653
@@ -48,6 +48,29 @@ framework of this project.
 each Spanish province (upper map) and estimated proportion (in percentage) of usage of health
 services excluding hospitalization among gender-based violence victims (lower map). Source: Self-
 generated based on data from the population-level survey on gender-based violence in Spain.*
+
+Aims and hypotheses
+------
+This project's overarching objective is to improve the social and health care model for the victim and
+her environment in cases of gender-based violence, using advanced data science and mathematical
+modeling methods. We have set four specific objectives, which are further described below:
+
+O1. Estimate the actual evolution of the number of gender-based violence cases, also covering the
+unreported cases, using the time series of registered cases by basic health area corresponding to the
+Northern Metropolitan Health Region.
+
+O2. Quantify the impact in reducing the underreporting issue of the new protocol to prevent gender-
+based violence introduced in the primary care system in the Northern Metropolitan Health Region in
+Catalonia in June 2018 and the training intervention conducted to sensibilize involved health
+professionals.
+
+O3. Predict when women may be victims of gender-based violence early on by developing new
+ensemble models based on a broad collection of clinical and sociodemographic features and identify
+which of these features are best predictors of such violence to create new knowledge in the field.
+
+O4. Develop technology capable of predicting women's characteristics compatible with a scenario of
+gender-based violence to assist health and social care professionals in identifying potential scenarios
+of this sort of violence in a clear and transparent manner.
 
 Acknowledgements
 ================
