@@ -72,8 +72,11 @@ O4. Develop technology capable of predicting women's characteristics compatible 
 gender-based violence to assist health and social care professionals in identifying potential scenarios
 of this sort of violence in a clear and transparent manner.
 
+Innovation
+------
+
 Acknowledgements
-================
+------
 This research has been funded by the Social Observatory of the "la Caixa" Foundation as part of
 the project LCF/PR/SR22/52570005.
 
