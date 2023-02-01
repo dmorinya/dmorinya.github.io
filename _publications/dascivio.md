@@ -207,7 +207,7 @@ in different contexts.
 Social relevance
 ------
 According to the United Nations organization (UN), gender-based violence refers to harmful acts
-directed at an individual based on their gender20. It is rooted in gender inequality, the abuse of power
+directed at an individual based on their gender. It is rooted in gender inequality, the abuse of power
 and harmful norms. Gender-based violence is a serious violation of human rights and a life-threatening
 health and protection issue. It is estimated that one in three women will experience sexual or physical
 violence in their lifetime worldwide, especially in situations of potential vulnerability as forced
