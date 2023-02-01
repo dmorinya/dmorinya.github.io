@@ -1,5 +1,5 @@
 ---
-title: "Data Science against gender-based violence"
+title: "Data science against gender-based violence"
 permalink: /publications/
 author_profile: true
 ---
@@ -20,9 +20,11 @@ intervention conducted over health professionals in this area starting in mid 20
 number of complaints, it is suspected that they represent only a small portion of the cases occurring,
 as for very different reasons, the victims often decide not to report the assaults they suffer.
 
+![fig1](/images/fig1.png)
+
 Acknowledgements
 ================
 This research has been funded by the Social Observatory of the "la Caixa" Foundation as part of
 the project LCF/PR/SR22/52570005.
 
-![title](/images/logo.png)
+![logo](/images/logo.png)
