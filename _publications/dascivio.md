@@ -74,6 +74,82 @@ of this sort of violence in a clear and transparent manner.
 
 Innovation
 ------
+The current project is novel at least in two ways: First, it uses real-world data that have not been
+analyzed in much detail before to estimate underreporting, predict potential victims of gender-based
+violence as well as generate accurate knowledge in the field to allow professionals updating their
+protocols and perspectives on certain aspects of the problem. Second, we will develop more flexible
+and appropriate methods for underreporting estimation and predictive purposes (see specific
+objectives described above), with the aim of improving the existing counterparts’ performances, thus
+providing more accurate outcomes and outputs from this project.
+In terms of data, for underreporting estimation (specific objectives O1. and O2., see above), we will
+use all the primary care diagnoses related to gender-based violence reported in the Northern
+Metropolitan Health Region in Catalonia (Spain) between January 1, 2010, and December 31, 2021. To
+date, underreporting in such data has not been studied or accurately estimated, even though
+professionals in the field are aware that this is a common phenomenon of gender-based violence data
+which worsen inferences and related conclusions. In addition, for the predictive purposes outlined in
+the third and fourth specific objectives (see specific objectives O3. and O4. above), we will use data
+from the macro-survey on violence against women, which was performed on a representative sample
+of 9.568 women aged over 16. The survey covered aspects related to sexual, psychological, and
+economic violence from a current or former partners, physical and sexual violence from non-partners,
+sexual harassment, and stalking (all these manifestations of violence englobed in the concept of
+gender-based violence), as well as other demographical and societal data such as age, education level,
+country of birth, marital status at the time of the survey, employment detail at the time of the survey,
+number of sons, partner’s gender, partner’s education level and partner's nationality, among others.
+For knowledge generation in the field (stated in the specific objective O3.), we will use data from the
+macro-survey described above, e.g., detecting the variables that best predicted risk of suffering
+gender-based violence, as well as new data consisting of women's characteristics such as age and
+nationality, and women’s health indicators such as the number of medical visits, number and status of
+pregnancies, number of miscarriages, urgency contraception usage, tobacco and alcohol status,
+physical activity, sexual relations, STI risk status, number of cytologies. These characteristics will be
+available for a sample of women who have already been diagnosed as victims of gender-based violence, as well as for a sample of women from the same region who have used the public health
+system at least once during the same time period although they were not diagnosed as victims of
+gender-based violence. We will use two different sets of data to create knowledge in the form of
+features or attributes that best characterize victims of gender-based violence given that the macro-
+survey does not contain information related to women’s health status, and this may be also relevant
+for the quick identification of potential victims, especially for the health professionals. To our
+knowledge, none of these datasets have been used for predictive purposes or for field knowledge
+production (in the terms stated in this project, i.e., for the detection of features as good predictors of
+gender-based violence) so far, even though both contain a wealth of rich and accurate information.
+In terms of methods development, for the purpose of underreporting estimation, we will extend
+recently proposed models based on longitudinal data analysis3,5 to analyze whether the incidence of
+the reported cases of gender-based violence has been underreported, as well as to estimate the
+frequency and intensity of the underreporting issue (specific objectives O1. and O2.). This model will
+be extended in different ways: Firstly, we will consider a time-varying underreporting scenario, i.e., we
+will allow underreporting parameters (frequency and intensity) to vary over time by considering
+appropriate and flexible functions. Second, we will investigate more complex structures for the latent
+processes, e.g., allowing more complex auto-correlation structures that may be more realistic, as well
+as more flexible models for characterizing the underreporting phenomenon. In addition, we will
+explore new alternatives for developing models for underreporting identification and estimation
+following methods based on N-mixture models, Bayesian approaches or capture-recapture
+methods, among other approaches.
+Finally, for achieving the third and fourth specific objectives (O3. and O4.), we will develop: (i) methods
+for variable selection and dimensionality reduction and (ii) prediction methods based on ensemble
+approaches. For the first point before, given that a large number of important potential predictors for
+gender-based violence identification is available, we will investigate and develop new methods for
+variable selection based on knockoffs. Knockoff-based methods are a general framework for
+controlling the false discovery rate in variable selection procedures. The idea here is to investigate
+some of these existing techniques to select a collection of variables that are actually effective
+predictors of gender-based violence and extend some of the existing knockoff-based methods to
+improve the current project's outcomes. Techniques for variable selection based on knockoffs are
+relatively new since they have not been explored in detail to date, and while there is a lot of good
+literature out there, there is still a lot of room for improvements in this area. For the second point, using the outcomes provided by the previous step (i), we will develop new prediction models based on
+ensemble techniques, which very often provide better predictive performances controlling
+overfitting, lessening the curse of dimensionality, mitigating class imbalances, etc. The idea behind
+ensemble techniques is to optimally combine a varied collection of weak learners that each captures
+specific aspects of the data, and a key point is thus the way we combine such weak learners. This
+project will build on different ensemble approaches, including adaptive boosting (AdaBoost),
+gradient boosting machines, stacked generalization techniques, and ensemble deep learning. We will
+extend some of these ensemble methods to provide a powerful predictive machine able to predict
+women at risk of suffering gender-based violence, guaranteeing both low false-positive and false-
+negative rates. To date, these approaches have never been used before to prevent gender-based
+violence in the terms proposed by this project.
+
+All data handling and statistical analyses will be conducted by developing new programs based on R
+language (version 4.1.0), and all codes and algorithms generated by this project will be available from
+public repositories as GitHub (https://github.com/) or CRAN (https://cran.r-project.org/) for full
+transparency.
+
+Further details related to methods development will be described below in Section *Methodology*.
 
 Acknowledgements
 ------
