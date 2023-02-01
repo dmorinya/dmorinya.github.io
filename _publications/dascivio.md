@@ -15,7 +15,7 @@ more than 16,000 complaints were lodged in Catalonia in 2019, 82% of which occur
 a sentimental partnership. Figure 1 depicts the number of gender-based violence reported cases in the
 different geographic areas of a particular health region in Catalonia, and it can be seen that the Covid-
 19 pandemic has increased the number of reported cases dramatically, especially due to a differential
-behavior during the pandemic (mobility restrictions, mandatory confinements1), and a training
+behavior during the pandemic (mobility restrictions, mandatory confinements), and a training
 intervention conducted over health professionals in this area starting in mid 2018. Despite the large
 number of complaints, it is suspected that they represent only a small portion of the cases occurring,
 as for very different reasons, the victims often decide not to report the assaults they suffer.
