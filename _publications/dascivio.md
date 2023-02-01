@@ -111,7 +111,7 @@ knowledge, none of these datasets have been used for predictive purposes or for 
 production (in the terms stated in this project, i.e., for the detection of features as good predictors of
 gender-based violence) so far, even though both contain a wealth of rich and accurate information.
 In terms of methods development, for the purpose of underreporting estimation, we will extend
-recently proposed models based on longitudinal data analysis3,5 to analyze whether the incidence of
+recently proposed models based on longitudinal data analysis to analyze whether the incidence of
 the reported cases of gender-based violence has been underreported, as well as to estimate the
 frequency and intensity of the underreporting issue (specific objectives O1. and O2.). This model will
 be extended in different ways: Firstly, we will consider a time-varying underreporting scenario, i.e., we
