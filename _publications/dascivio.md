@@ -234,6 +234,10 @@ based violence in all its forms.
 Methodology
 ------
 
+Results
+------
+The main preliminary results of the project can be consulted [here](https://external.ink?to=google.cat).
+
 Acknowledgements
 ------
 This research has been funded by the Social Observatory of the "la Caixa" Foundation as part of
