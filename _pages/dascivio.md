@@ -1,10 +1,7 @@
 ---
-permalink: /
+layout: archive
 title: "Data Science against gender-based violence"
-excerpt: "dascivio"
+permalink: /publications/
 author_profile: false
-redirect_from: 
-  - /dascivio/
-  - /dascivio.html
 ---
 Prova
