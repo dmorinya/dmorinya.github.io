@@ -61,8 +61,7 @@ O1. Estimate the actual evolution of the number of gender-based violence cases, 
 unreported cases, using the time series of registered cases by basic health area corresponding to the
 Northern Metropolitan Health Region.
 
-O2. Quantify the impact in reducing the underreporting issue of the new protocol to prevent gender-
-based violence introduced in the primary care system in the Northern Metropolitan Health Region in
+O2. Quantify the impact in reducing the underreporting issue of the new protocol to prevent gender-based violence introduced in the primary care system in the Northern Metropolitan Health Region in
 Catalonia in June 2018 and the training intervention conducted to sensibilize involved health
 professionals.
 
