@@ -151,6 +151,89 @@ transparency.
 
 Further details related to methods development will be described below in Section *Methodology*.
 
+Expected outcomes and outputs
+------
+A number of outcomes and outputs will be generated within the framework of this research project,
+in terms of methods development and related technologies, as well as knowledge generation in the
+field.
+In the first place, in terms of methods development and related technologies for underreporting
+estimation (specific objectives O1. and O2.), new approaches to the analysis of this phenomenon in
+data will be developed and integrated in the form of an R package, freely available and auditable to
+the entire data science community. These extended methods will particularly be used to estimate the
+true burden of gender-based violence in Catalonia in the period 2010-2021 and will allow us to
+estimate the magnitude of the unseen part of the problem, likely comparable to that of other
+neighboring countries. All these results and resources will be included in a web-page repository,
+available to the scientific community as well as the general public, allowing everyone to have a better
+understanding of the real extent of the problem. Second, in terms of methods development and
+related technologies for prediction methods construction (specific objectives O3. and O4.), we will
+provide a prediction technology aimed at estimating the risk of a certain woman suffering gender-based violence based on her social and clinical characteristics, so that it will be used as a potentially
+helpful and transparent guide for the professionals in the field. This technology will be adapted and
+incorporated in the software used by public health system professionals for new diagnoses reporting
+(e-CAP environment).
+In addition to the technologies described above for underreporting estimation and prediction
+purposes, we plan to publish our developed methods and related technologies in top-tier research
+journals in statistics and probability. We plan particularly to produce two papers with a methodological
+scope, one with the proposed model for underreporting estimation and another with the proposed
+predictive learning model. We also plan to present our methods in national and international
+conferences such as International Workshop on Statistical Modelling (IWSM), national and
+international conferences of respectively the Spanish Biometric Society and the International
+Biometric Society, among others.
+Secondly, in terms of knowledge generation in the field, the estimation of underreporting of the
+number of gender-based violence victims in the Northern Metropolitan Health Region of Catalonia
+(Spain) between 2010 and 2021 will provide knowledge not only about the estimated frequency and
+intensity of such a phenomenon in each basic health area, but also about the estimated underreporting
+parameters' evolution over time, which can be used to determine if, e.g., the training interventions
+undertaken with health professionals in a studied basic health area had a significant influence on the
+evolution of gender-based violence underreporting. With robust estimates of the underreporting
+parameters (i.e., frequency and intensity) given by our developed models and implemented in the
+above-described technologies, we will be able to help the community understand the scope of the
+phenomenon in recent years and its evolution until now. In addition, knowledge of the magnitude of
+the phenomenon will assist professionals in developing more appropriate health policies and measures
+to control and (ideally) reduce the impact of underreporting in gender-based violence-related data.
+Finally, this information will also be helpful to adjust inferences and related conclusions based on data
+on gender-based violence. On the other hand, the knowledge provided by the prediction learning
+technology, e.g., identification of clinical and sociodemographic characteristics that are particularly
+good indicators of gender-based violence victims, can be used to better understand the problem, as
+well as formulate new practices for health professionals and train them more accurately based on
+data-based results. In addition to the new knowledge that this research project will bring to the field,
+we plan to produce two papers for top applied scientific journals. Although the described outcomes
+and results that this data science and statistical modeling approach can produce in order to better understand the real burden of gender-based violence and identifying the characteristics of potential
+victims overcoming possible human biases and prejudices, to the date this path has been little
+explored, while this project aims to achieve not only local answers to socially relevant research
+questions but also to provide methodological and technological tools that could be adapted and used
+in different contexts.
+
+Social relevance
+------
+According to the United Nations organization (UN), gender-based violence refers to harmful acts
+directed at an individual based on their gender20. It is rooted in gender inequality, the abuse of power
+and harmful norms. Gender-based violence is a serious violation of human rights and a life-threatening
+health and protection issue. It is estimated that one in three women will experience sexual or physical
+violence in their lifetime worldwide, especially in situations of potential vulnerability as forced
+displacements, wars, or economic crisis. Despite theoretical and regulatory advances in the field of
+recognition of women's rights, the formal elimination of references to women's honor and honesty,
+and the replacement of these references by sexual freedom, many patriarchal structures in the legal
+and social understanding of sexual violence remain in the text of our laws, especially in their
+interpretation. The large population-level survey conducted in Spain in 20194 including 9,568
+interviewed women with 16 years or more revealed that gender-based violence is still an important
+public health issue, as it shows, among other relevant results, that more than 50% of Spanish women
+older than 16 years have suffered gender-based violence at some point in their lives. Also concerning
+is that the proportion of victims of gender-based violence is larger among younger women.
+This study also reveals that only a small fraction of victims seeks professional help after suffering an
+episode of gender-based violence. For instance, only the 6.5% of victims of sexual violence received
+medical assistance after the aggression, making it very complicated for public health system
+professionals to diagnose these cases and leading to severely underestimated records.
+In addition, unlike other forms of sexist violence, sexual violence still involves a very strong social
+stigma, and its understanding is often full of stereotypes and prejudices that severely affect victims.
+These phenomena, of course, are not exclusive to Catalonia or Spain, as they are widely documented
+around the world and are also the starting point for this diagnosis. Therefore, the results and
+methodological advances obtained using these data will be directly applicable worldwide, even in very
+different realities and will certainly make a difference in our understanding and fight against gender-
+based violence in all its forms.
+
+Methodology
+------
+
 Acknowledgements
 ------
 This research has been funded by the Social Observatory of the "la Caixa" Foundation as part of
