@@ -45,8 +45,8 @@ framework of this project.
 
 ![fig2](/images/fig2.png)
 *Figure 2. Estimated proportion (in percentage) of gender-based violence (physical and/or sexual) in
-each Spanish province (upper map) and estimated proportion (in percentage) of usage of health
-services excluding hospitalization among gender-based violence victims (lower map). Source: Self-
+each Spanish province (left-hand map) and estimated proportion (in percentage) of usage of health
+services excluding hospitalization among gender-based violence victims (right-hand map). Source: Self-
 generated based on data from the population-level survey on gender-based violence in Spain.*
 
 Aims and hypotheses
