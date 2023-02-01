@@ -235,7 +235,7 @@ Methodology
 
 Results
 ------
-The main preliminary results of the project can be consulted [here](https://external.ink?to=google.cat).
+The main preliminary results of the project can be consulted <a href="www.google.cat" target="_blank">here</a>.
 
 Acknowledgements
 ------
