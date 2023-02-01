@@ -215,7 +215,7 @@ displacements, wars, or economic crisis. Despite theoretical and regulatory adva
 recognition of women's rights, the formal elimination of references to women's honor and honesty,
 and the replacement of these references by sexual freedom, many patriarchal structures in the legal
 and social understanding of sexual violence remain in the text of our laws, especially in their
-interpretation. The large population-level survey conducted in Spain in 20194 including 9,568
+interpretation. The large population-level survey conducted in Spain in 2019 including 9,568
 interviewed women with 16 years or more revealed that gender-based violence is still an important
 public health issue, as it shows, among other relevant results, that more than 50% of Spanish women
 older than 16 years have suffered gender-based violence at some point in their lives. Also concerning
