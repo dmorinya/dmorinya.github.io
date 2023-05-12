@@ -236,7 +236,7 @@ Methodology
 Let's assume that the actual weekly number of GBV cases $X_t$ follows a Poisson distribution with mean $\lambda$, which is increased in a factor $\beta$ in the mandatory confinement period (2020 March 14th to 2020 June 24th), i.e., $E(X_t) = \lambda+I(t) \cdot \beta$ where $I(t)$ takes the value 1 if $t$ falls within the mandatory confinement period and 0 otherwise. The evolution of the phenomenon in each subarea is shown in Figure~\ref{millan:fig1}, jointly with the reconstructed most likely actual process according to Equation~\ref{eq2}. 
 
 The number of cases diagnosed within the public primary care system, $Y_t$, is just a part of the actual process, expressed as
-```{math, label=eq1}
+```math
 Y_t = \begin{cases}
       q_0 \circ X_t, t \leq t' \\
       q_t \circ X_t, t > t'
@@ -252,7 +252,7 @@ It should also be noted that $\alpha$ is the moment when $q_{\alpha}=1$, i.e., t
 
 Once the parameters have been estimated, the most likely process can be reconstructed taking into account that $Y_i \mid X_i \sim Binom(x_i, q_t)$. At each time $t$ with $j$ reported cases, the most likely number of gender-based violence cases is the value $\nu$ that maximizes the probability
 
-```{math, label=eq2}
+```math
   \begin{aligned}\label{eq2}
 f(\nu) &= P(X=\nu \mid Y=j) \propto P(Y=j \mid X=\nu) \cdot P(X=\nu) = \\
        &= \begin{cases}
