@@ -240,7 +240,7 @@ The number of cases diagnosed within the public primary care system, $Y_t$, is j
 Y_t = \begin{cases}
       q_0 \circ X_t, t \leq t' \\
       q_t \circ X_t, t > t'
-    \end{cases}
+    \end{cases}\label{eq1}
 ```
 where $\circ$ is the *binomial thinning* operator, defined as $$q_t \circ X_t = \sum_{i=1}^{X_t} Z_i$$, with $Z_i$ independent and identically distributed Bernoulli random variables with probability of success $q_t$ and $q_t = q_0 + \frac{t-t'}{\frac{\alpha-t'}{(1-q_0)}}$ for $t > t'$, where $t'$ is the changing point at which the sensibilization training for primary care professionals starts impacting the weekly number of diagnoses. Additionally, an alternative modelling of $q_t$ as $q_t = 1- (1-q_0)e^{(-\alpha \cdot t)}$ was considered and compared to the previous one in terms of Deviance Information Criterion (DIC). Each subarea was modelled according to its best fitting approach. 
 
@@ -253,7 +253,7 @@ It should also be noted that $\alpha$ is the moment when $q_{\alpha}=1$, i.e., t
 Once the parameters have been estimated, the most likely process can be reconstructed taking into account that $Y_i \mid X_i \sim Binom(x_i, q_t)$. At each time $t$ with $j$ reported cases, the most likely number of gender-based violence cases is the value $\nu$ that maximizes the probability
 
 ```math
-  \begin{aligned}\label{eq2}
+  \begin{aligned}
 f(\nu) &= P(X=\nu \mid Y=j) \propto P(Y=j \mid X=\nu) \cdot P(X=\nu) = \\
        &= \begin{cases}
       0, j > \nu \\
