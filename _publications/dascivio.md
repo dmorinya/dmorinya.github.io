@@ -237,14 +237,16 @@ Let's assume that the actual weekly number of GBV cases $X_t$ follows a Poisson 
 
 The number of cases diagnosed within the public primary care system, $Y_t$, is just a part of the actual process, expressed as
 ```math
-Y_t = \begin{cases} \label{eq1}
+\begin{equation} \label{eq1}
+Y_t = \begin{cases}
       q_0 \circ X_t, t \leq t' \\
       q_t \circ X_t, t > t'
     \end{cases}
+\end{equation}
 ```
 where $\circ$ is the *binomial thinning* operator, defined as $$q_t \circ X_t = \sum_{i=1}^{X_t} Z_i$$, with $Z_i$ independent and identically distributed Bernoulli random variables with probability of success $q_t$ and $q_t = q_0 + \frac{t-t'}{\frac{\alpha-t'}{(1-q_0)}}$ for $t > t'$, where $t'$ is the changing point at which the sensibilization training for primary care professionals starts impacting the weekly number of diagnoses. Additionally, an alternative modelling of $q_t$ as $q_t = 1- (1-q_0)e^{(-\alpha \cdot t)}$ was considered and compared to the previous one in terms of Deviance Information Criterion (DIC). Each subarea was modelled according to its best fitting approach. 
 
-It should also be noted that $\alpha$ is the moment when $q_{\alpha}=1$, i.e., the registered and observed processes coincide. It is important to note that the number of GBV cases $X_t$ is not directly observed, and only the number of diagnosed cases $Y_t$ is observed. Model~(\ref{eq1}) assumes that $Y_t$ only reports a fraction $q_t$ of the total number of GBV cases. All the parameters ($q_0$, $\lambda$, $\beta$, $\alpha$ and $t'$) are estimated by Gibbs sampling using the \textit{R2jags} package (Yu-Sung and Masanao, 2021), using appropriate priors based on the available information. In order to avoid non-identifyability of the model~(\ref{eq1}), the actual average number of GBV cases in each subarea on the non-Covid period (parameter $\lambda$) has a normal prior distribution with mean based on several realistic scenarios:
+It should also be noted that $\alpha$ is the moment when $q_{\alpha}=1$, i.e., the registered and observed processes coincide. It is important to note that the number of GBV cases $X_t$ is not directly observed, and only the number of diagnosed cases $Y_t$ is observed. Model~(\ref{eq1}) assumes that $Y_t$ only reports a fraction $q_t$ of the total number of GBV cases. All the parameters ($q_0$, $\lambda$, $\beta$, $\alpha$ and $t'$) are estimated by Gibbs sampling using the *R2jags* package (Yu-Sung and Masanao, 2021), using appropriate priors based on the available information. In order to avoid non-identifyability of the model~(\ref{eq1}), the actual average number of GBV cases in each subarea on the non-Covid period (parameter $\lambda$) has a normal prior distribution with mean based on several realistic scenarios:
 
 -   The expected cases according to the Macro Survey results provided by the Spanish Minsitry of Equity. It is worth noticing that this is the most conservative approach, as we are assuming that the results of the survey are not underestimating the prevalence of GBV cases.
 -   Second scenario (TODO).
