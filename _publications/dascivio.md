@@ -236,12 +236,13 @@ Methodology
 Let's assume that the actual weekly number of GBV cases $X_t$ follows a Poisson distribution with mean $\lambda$, which is increased in a factor $\beta$ in the mandatory confinement period (2020 March 14th to 2020 June 24th), i.e., $E(X_t) = \lambda+I(t) \cdot \beta$ where $I(t)$ takes the value 1 if $t$ falls within the mandatory confinement period and 0 otherwise. The evolution of the phenomenon in each subarea is shown in Figure~\ref{millan:fig1}, jointly with the reconstructed most likely actual process according to Equation~\ref{eq2}. 
 
 The number of cases diagnosed within the public primary care system, $Y_t$, is just a part of the actual process, expressed as
-$$
+\begin{equation} 
 Y_t = \begin{cases} \label{eq1}
       q_0 \circ X_t, t \leq t' \\
       q_t \circ X_t, t > t'
     \end{cases}
-$$
+    (\#eq:eq1)
+\end{equation} 
 
 where $\circ$ is the \textit{binomial thinning} operator, defined as $q_t \circ X_t = \sum_{i=1}^{X_t} Z_i$, with $Z_i$ independent and identically distributed Bernoulli random variables with probability of success $q_t$ and $q_t = q_0 + \frac{t-t'}{\frac{\alpha-t'}{(1-q_0)}}$ for $t > t'$, where $t'$ is the changing point at which the sensibilization training for primary care professionals starts impacting the weekly number of diagnoses. Additionally, an alternative modelling of $q_t$ as $q_t = 1- (1-q_0)e^{(-\alpha \cdot t)}$ was considered and compared to the previous one in terms of Deviance Information Criterion (DIC), reported in Table~\ref{millan:tab1}. Each subarea was modelled according to its best fitting approach. 
 
