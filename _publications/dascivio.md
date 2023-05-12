@@ -246,6 +246,23 @@ where $\circ$ is the \textit{binomial thinning} operator, defined as $q_t \circ 
 
 It should also be noted that $\alpha$ is the moment when $q_{\alpha}=1$, i.e., the registered and observed processes coincide. It is important to note that the number of GBV cases $X_t$ is not directly observed, and only the number of diagnosed cases $Y_t$ is observed. Model~(\ref{eq1}) assumes that $Y_t$ only reports a fraction $q_t$ of the total number of GBV cases. All the parameters ($q_0$, $\lambda$, $\beta$, $\alpha$ and $t'$) are estimated by Gibbs sampling using the \textit{R2jags} package (Yu-Sung and Masanao, 2021), using appropriate priors based on the available information. In order to avoid non-identifyability of the model~(\ref{eq1}), the actual average number of GBV cases in each subarea on the non-Covid period (parameter $\lambda$) has a normal prior distribution with mean based on several realistic scenarios:
 
+-   The expected cases according to the Macro Survey results provided by the Spanish Minsitry of Equality. It is worth noticing that this is the most conservative approach, as we are assuming that the results of the survey are not underestimating the prevalence of GBV cases.
+-   Second scenario (TODO).
+-   Third scenario (TODO).
+
+Once the parameters have been estimated, the most likely process can be reconstructed taking into account that $Y_i \mid X_i \sim Binom(x_i, q_t)$. At each time $t$ with $j$ reported cases, the most likely number of gender-based violence cases is the value $\nu$ that maximizes the probability
+
+```math
+  \begin{aligned}\label{eq2}
+f(\nu) &= P(X=\nu \mid Y=j) \propto P(Y=j \mid X=\nu) \cdot P(X=\nu) = \\
+       &= \begin{cases}
+      0, j > \nu \\
+      \binom{\nu}{j} \cdot q_t^j \cdot (1-q_t)^{\nu-j} \cdot \frac{e^{- (\lambda + I(t) \cdot \beta)} \cdot (\lambda + I(t) \cdot \beta)^{\nu}}{\nu !}, j \leq \nu
+      \end{cases}
+  \end{aligned}
+```
+A thorough simulation study reproducing the described structure with different parameter values has been conducted in order to assess whether the original values can be recovered by using this estimation method and to assess the model performance.
+
 Results
 ------
 The main preliminary results of the project can be consulted [here](https://dmorina.shinyapps.io/DaSciVioDesc/).
