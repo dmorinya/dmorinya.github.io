@@ -233,11 +233,11 @@ based violence in all its forms.
 
 Methodology
 ------
-Prova
+Let's assume that the actual weekly number of GBV cases $X_t$ follows a Poisson distribution with mean $\lambda$, which is increased in a factor $\beta$ in the mandatory confinement period (2020 March 14th to 2020 June 24th), i.e., $E(X_t) = \lambda+I(t) \cdot \beta$ where $I(t)$ takes the value 1 if $t$ falls within the mandatory confinement period and 0 otherwise. The evolution of the phenomenon in each subarea is shown in Figure~\ref{millan:fig1}, jointly with the reconstructed most likely actual process according to Equation~\ref{eq2}. 
 
 Results
 ------
-The main preliminary results of the project can be consulted [here](https://www.google.cat).
+The main preliminary results of the project can be consulted [here](https://dmorina.shinyapps.io/DaSciVioDesc/).
 
 Acknowledgements
 ------
