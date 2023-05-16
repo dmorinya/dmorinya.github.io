@@ -236,6 +236,7 @@ Methodology
 Let's assume that the actual weekly number of GBV cases $X_t$ follows a Poisson distribution with mean $\lambda$, which is increased in a factor $\beta$ in the mandatory confinement period (2020 March 14th to 2020 June 24th), i.e., $E(X_t) = \lambda+I(t) \cdot \beta$ where $I(t)$ takes the value 1 if $t$ falls within the mandatory confinement period and 0 otherwise.
 
 The number of cases diagnosed within the public primary care system, $Y_t$, is just a part of the actual process, expressed as
+
 ```math
 Y_t = \begin{cases}
       q_0 \circ X_t, t \leq t' \\
