@@ -266,7 +266,7 @@ A thorough simulation study reproducing the described structure with different p
 
 Results
 ------
-The main preliminary results of the project can be consulted [here](https://dmorina.shinyapps.io/DaSciVioDesc/](https://www.medrxiv.org/content/10.1101/2024.02.26.24303373v1.full-text). Some relevant descriptions can be found [here] (https://dmorina.shinyapps.io/DaSciVioDesc/).
+The main preliminary results of the project can be consulted [here](https://www.medrxiv.org/content/10.1101/2024.02.26.24303373v1.full-text). Some relevant descriptions can be found [here](https://dmorina.shinyapps.io/DaSciVioDesc/).
 
 Acknowledgements
 ------
