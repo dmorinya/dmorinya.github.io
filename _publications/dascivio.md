@@ -247,9 +247,9 @@ where $\circ$ is the *binomial thinning* operator, defined as $$q_t \circ X_t = 
 
 It should also be noted that $\alpha$ is the moment when $q_{\alpha}=1$, i.e., the registered and observed processes coincide. It is important to note that the number of GBV cases $X_t$ is not directly observed, and only the number of diagnosed cases $Y_t$ is observed. The previous model assumes that $Y_t$ only reports a fraction $q_t$ of the total number of GBV cases. All the parameters ($q_0$, $\lambda$, $\beta$, $\alpha$ and $t'$) are estimated by Gibbs sampling using the *R2jags* package (Yu-Sung and Masanao, 2021), using appropriate priors based on the available information. In order to avoid non-identifyability of the model defined by Equation (1), the actual average number of GBV cases in each subarea on the non-Covid period (parameter $\lambda$) has a normal prior distribution with mean based on several realistic scenarios:
 
--   The expected cases according to the Macro Survey results provided by the Spanish Minsitry of Equity. It is worth noticing that this is the most conservative approach, as we are assuming that the results of the survey are not underestimating the prevalence of GBV cases.
--   Second scenario (TODO).
--   Third scenario (TODO).
+-   Scenario 1: The expected situation according to the results of the macro survey conducted by the Spanish Ministry of Equality, i.e., around 32% of women in the Barcelona area have suffered physical or sexual GBV at some point in their lives, and only around 16% of the victims sought medical care after suffering such an episode (excluding hospital admissions). It should be stressed that this is the most conservative scenario, as it assumes that the results of the survey are not underestimating the prevalence of GBV cases and subsequent usage of health services, which is dubious to say the least.
+-   Scenario 2: Assuming again that around 32% of women in the Barcelona area have suffered physical or sexual GBV at some point in their lives, but considering that 50% of the victims seek medical care after suffering such an episode (excluding hospital admissions).
+-   Scenario 3: Assuming again that around 32% of women in the Barcelona area have suffered physical or sexual GBV at some point in their lives, but considering that 90% of the victims seek medical care after suffering such an episode (excluding hospital admissions). This scenario is especially interesting from a preventive perspective, as it is known that 90% of the population attends a primary health center at least once every two years and, therefore, this is scenario considers primary care as the reference system for cases of GBV.
 
 Once the parameters have been estimated, the most likely process can be reconstructed taking into account that $Y_i \mid X_i \sim Binom(x_i, q_t)$. At each time $t$ with $j$ reported cases, the most likely number of gender-based violence cases is the value $\nu$ that maximizes the probability
 
@@ -266,7 +266,7 @@ A thorough simulation study reproducing the described structure with different p
 
 Results
 ------
-The main preliminary results of the project can be consulted [here](https://dmorina.shinyapps.io/DaSciVioDesc/).
+The main preliminary results of the project can be consulted [here](https://dmorina.shinyapps.io/DaSciVioDesc/](https://www.medrxiv.org/content/10.1101/2024.02.26.24303373v1.full-text). Some relevant descriptions can be found [here] (https://dmorina.shinyapps.io/DaSciVioDesc/).
 
 Acknowledgements
 ------
