@@ -273,10 +273,10 @@ Knowledge brokering activity
 On September 5th 2024 the knowledge brokering activity for the project "Data science against gender-based violence" was conducted at the Palau Macaya in Barcelona, consisting in several talks given by experts both from the statistical modelling and primary care attention settings and a round table entitled "How to improve the detection of gender-based violence cases from the Primary Care system?". The complete program can be found [here](/files/JornadaContraVG5SEP2024_imprimir.pdf) and the delivered talks are available below (when possible):
 
 - Cristina Martinez (Institut Català de la Salut): Detecció i atenció de violència masclista en l'Atenció Primària - ASSIR
-- Pere Puig (Universitat Autònoma de Barcelona): Els mètodes de captura-recaptura: creuant llistes
-- David Moriña (Universitat de Barcelona): Estimating what is under the tip of the gender-based violence iceberg: A statistical modelling approach
+- Pere Puig (Universitat Autònoma de Barcelona): [Els mètodes de captura-recaptura: creuant llistes](/files/Palau_Macaya_2023.pdf)
+- David Moriña (Universitat de Barcelona): [Estimating what is under the tip of the gender-based violence iceberg: A statistical modelling approach](/files/morina_Macaya_DASCIVIO.pdf)
 - Judit Vall (Universitat de Barcelona): Hit where it hurts: healthcare access and intimate partner violence
-- Maria Cobo (Universitat Autònoma de Barcelona): Model predictiu de violència de gènere
+- Maria Cobo (Universitat Autònoma de Barcelona): [Model predictiu de violència de gènere](/files/workshop_Maria.pdf)
 - Eva Martín (Mossos d'Esquadra): Violències masclistes
 - Carol Calero (Societat Catalana de Medicina Familiar i Comunitària): Com millorar la detecció de casos de violència de gènere des de l'atenció primària?
 
