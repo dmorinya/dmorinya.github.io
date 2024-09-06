@@ -238,10 +238,7 @@ Let's assume that the actual weekly number of GBV cases $X_t$ follows a Poisson 
 The number of cases diagnosed within the public primary care system, $Y_t$, is just a part of the actual process, expressed as
 
 ```math
-Y_t = \begin{cases}
-      q_0 \circ X_t, t \leq t' \\
-      q_t \circ X_t, t > t'
-    \end{cases}
+Y_t = q_0
 ```
 where $\circ$ is the *binomial thinning* operator, defined as $$q_t \circ X_t = \sum_{i=1}^{X_t} Z_i$$, with $Z_i$ independent and identically distributed Bernoulli random variables with probability of success $q_t$ and $q_t = q_0 + \frac{t-t'}{\alpha-t'} \cdot (1-q_0)$ for $t > t'$, where $t'$ is the changing point at which the sensibilization training for primary care professionals starts impacting the weekly number of diagnoses. Additionally, an alternative modelling of $q_t$ as $q_t = 1- (1-q_0)e^{(-\alpha \cdot (t-t'))}$ was considered and compared to the previous one in terms of Deviance Information Criterion (DIC). Each subarea was modelled according to its best fitting approach. 
 
