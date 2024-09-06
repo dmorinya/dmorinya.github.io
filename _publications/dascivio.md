@@ -268,6 +268,18 @@ Results
 ------
 The main preliminary results of the project can be consulted [here](https://www.medrxiv.org/content/10.1101/2024.02.26.24303373v1.full-text). Some relevant descriptions can be found [here](https://dmorina.shinyapps.io/DaSciVioDesc/).
 
+Knowledge brokering activity
+------
+On September 5th 2024 the knowledge brokering activity for the project "Data science against gender-based violence" was conducted at the Palau Macaya in Barcelona, consisting in several talks given by experts both from the statistical modelling and primary care attention settings. The complete program can be found [here]() and the delivered talks are available below (when possible):
+
+- Cristina Martinez (Institut Català de la Salut): Detecció i atenció de violència masclista en l'Atenció Primària - ASSIR
+- Pere Puig (Universitat Autònoma de Barcelona): Els mètodes de captura-recaptura: creuant llistes
+- David Moriña (Universitat de Barcelona): Estimating what is under the tip of the gender-based violence iceberg: A statistical modelling approach
+- Judit Vall (Universitat de Barcelona): Hit where it hurts: healthcare access and intimate partner violence
+- Maria Cobo (Universitat Autònoma de Barcelona): Model predictiu de violència de gènere
+- Eva Martín (Mossos d'Esquadra): Violències masclistes
+- Carol Calero (Societat Catalana de Medicina Familiar i Comunitària): Com millorar la detecció de casos de violència de gènere des de l'atenció primària?
+
 Acknowledgements
 ------
 This research has been funded by the Social Observatory of the "la Caixa" Foundation as part of
