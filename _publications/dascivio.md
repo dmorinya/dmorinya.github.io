@@ -238,7 +238,7 @@ Let's assume that the actual weekly number of GBV cases $X_t$ follows a Poisson 
 The number of cases diagnosed within the public primary care system, $Y_t$, is just a part of the actual process, expressed as
 
 ```math
-Y_t = q_0
+$Y_t = q_0$
 ```
 where $\circ$ is the *binomial thinning* operator, defined as $$q_t \circ X_t = \sum_{i=1}^{X_t} Z_i$$, with $Z_i$ independent and identically distributed Bernoulli random variables with probability of success $q_t$ and $q_t = q_0 + \frac{t-t'}{\alpha-t'} \cdot (1-q_0)$ for $t > t'$, where $t'$ is the changing point at which the sensibilization training for primary care professionals starts impacting the weekly number of diagnoses. Additionally, an alternative modelling of $q_t$ as $q_t = 1- (1-q_0)e^{(-\alpha \cdot (t-t'))}$ was considered and compared to the previous one in terms of Deviance Information Criterion (DIC). Each subarea was modelled according to its best fitting approach. 
 
@@ -251,13 +251,13 @@ It should also be noted that $\alpha$ is the moment when $q_{\alpha}=1$, i.e., t
 Once the parameters have been estimated, the most likely process can be reconstructed taking into account that $Y_i \mid X_i \sim Binom(x_i, q_t)$. At each time $t$ with $j$ reported cases, the most likely number of gender-based violence cases is the value $\nu$ that maximizes the probability
 
 ```math
-  \begin{aligned}
+\begin{aligned}
 f(\nu) &= P(X=\nu \mid Y=j) \propto P(Y=j \mid X=\nu) \cdot P(X=\nu) = \\
        &= \begin{cases}
       0, j > \nu \\
       \binom{\nu}{j} \cdot q_t^j \cdot (1-q_t)^{\nu-j} \cdot \frac{e^{- (\lambda + I(t) \cdot \beta)} \cdot (\lambda + I(t) \cdot \beta)^{\nu}}{\nu !}, j \leq \nu
       \end{cases}
-  \end{aligned}
+\end{aligned}
 ```
 A thorough simulation study reproducing the described structure with different parameter values has been conducted in order to assess whether the original values can be recovered by using this estimation method and to assess the model performance.
 
