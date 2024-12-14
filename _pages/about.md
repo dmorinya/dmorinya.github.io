@@ -12,15 +12,17 @@ David Moriña is associate professor (professor agregat) at the Department of Ma
 
 Current projects
 ------
-[1] Exploring the association between mental health and atmospheric pollution: A statistical modelling approach (Funded by CRM through a María de Maeztu grant)
+[1] Exploring the association between mental health and atmospheric pollution: A statistical modelling approach (Funded by CRM through a María de Maeztu grant).
+
 [2] Modelling cyber-incidents occurrence in Spain (Funded by NextGenerationEU).
+
 [3] Data science against gender-based violence (DaSciVio, Funded by Obra Social Fundació La Caixa, Social Research call 2022). [Website](/publications/).
 
 Former Projects
 ------
-[1] Insurance data analytics: methods and implications for usage-based products (IDA4UB, Funded by the Spanish Ministry of Science and Innovation)
+[1] Insurance data analytics: methods and implications for usage-based products (IDA4UB, Funded by the Spanish Ministry of Science and Innovation).
 
-[2] Seguros de salud tras la epidemia: Medir la transformación (Funded by Fundación Mapfre)
+[2] Seguros de salud tras la epidemia: Medir la transformación (Funded by Fundación Mapfre).
 
 [3] Cuantificación en tiempo real de nuevos casos no reportados de COVID-19 en España (Funded by the Spanish Ministry of Health and the Instituto de Salud Carlos III).
 
