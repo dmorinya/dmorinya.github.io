@@ -84,12 +84,13 @@ author:
   avatar           : "IMG_5859.jpg"
   bio              : "Mathematician, Biostatistician. Associate professor at Universitat Autònoma de Barcelona"
   location         : "Barcelona, Catalonia"
-  employer         :
+  employer         : "Universitat Autònoma de Barcelona"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=david+moriña"
-  googlescholar    : "https://scholar.google.es/citations?user=oECe90MAAAAJ&hl=es"
-  email            :
+  googlescholar    : 
+  email            : "David.Morina@uab.cat"
   researchgate     : "https://www.researchgate.net/profile/David_Morina"
   uri              :
+  bluesky          : "https://bsky.app/profile/dmorina.bsky.social"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -109,7 +110,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "dmorinya"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
